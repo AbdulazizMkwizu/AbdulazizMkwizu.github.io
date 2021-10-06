@@ -1,0 +1,219 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "lato", sans-serif;
+	color: white;
+}
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+h2 {
+	font-size: 25px;
+	font-weight: 300;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+p {
+	font-size: 20px;
+	margin: 10px 0;
+}
+img {
+	width: 100%;
+}
+
+.navbar {
+	background-color: purple;
+	height: 70px;
+	padding: 0 30px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	overflow: visible;
+}
+.navbar h1 {
+	font-size: 30px;
+	font-weight: 300;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+.navbar .flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.navbar ul {
+	display: flex;
+	list-style-type: none;
+}
+.navbar a {
+	text-decoration: none;
+	color: white;
+	padding: 9px;
+	margin: 0 10px;
+}
+.navbar a:hover {
+	color: #9867c5;
+	border-bottom: 3px solid #9867c5;
+}
+
+.showcase {
+	height: 300px;
+	background-color: purple;
+}
+.showcase p {
+	margin-bottom: 30px;
+}
+.showcase img {
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+.showcase-form {
+	padding-left: 7px;
+	margin: auto;
+}
+.grid {
+	overflow: visible;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.grid-item-1,
+.grid-item-2 {
+	position: relative;
+	top: 50px;
+}
+.showcase input[type="email"] {
+	border-radius: 6px;
+	border: none;
+	font-size: 14px;
+	padding: 10px 70px 10px 6px;
+}
+.btn {
+	border-radius: 6px;
+	padding: 12px 20px;
+	background: #9867c5;
+	border: none;
+	margin-left: 10px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.little-info {
+	font-size: 15px;
+	font-family: "poppins", sans-serif;
+}
+
+/* setting za container */
+.lower-container {
+	margin: 140px auto 10px;
+	padding: 0;
+	max-width: 1400px;
+}
+/* Target all H3 with a class of a title */
+.title {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+/* Target the paragraphs with class name of text */
+.text {
+	color: black;
+	font-size: 19px;
+	width: 100%;
+	padding: 10px;
+	text-align: justify;
+}
+/* Display horizontally & put space around them */
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+/* Add some padding around the container & Align text centrally */
+.stats {
+	padding: 45px 50px;
+	text-align: center;
+}
+/* Set marging and width */
+.stat {
+	margin: 0 30px;
+	text-align: center;
+	width: 800px;
+}
+/* Decorate icons */
+.stats .fa {
+	color: purple;
+}
+
+/* Set the color to black */
+.testimonial {
+	color: black;
+	padding: 40px;
+	text-align: justify;
+}
+/* Wrap the image inside a cirle shape and set height to take up all of parent element */
+.testimonial img {
+	height: 100%;
+	clip-path: circle();
+}
+/* Align text centrally */
+.testimonial h3 {
+	text-align: center;
+}
+/* Create a grid of three equal columns. Set a gap of 40 px between them */
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+/* Create a white card with some shadow around it */
+.card {
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2), 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+.circle {
+	background-color: transparent;
+	border: 3px solid purple;
+	height: 90px;
+	width: 90px;
+	position: relative;
+	top: -30px;
+	left: 120px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+/* Add padding around the footer as well */
+
+footer {
+	background-color: purple;
+	padding: 20px 10px;
+}
+
+/* Sets all link texts to white and puts margin to the left and right */
+
+footer a {
+	color: white;
+	margin: 0 10px;
+}
+footer a:hover {
+	color: #9867C5;
+	border-bottom: 2px solid #9867C5;
+  }
+.links ul,a {
+	text-decoration: none;
+	list-style-type: none;
+}

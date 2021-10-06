@@ -1,0 +1,56 @@
+* {
+    max-width: 100%;
+}
+.topmenu {
+    background-color: rgb(183, 198, 209);
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.topmenu li {
+	float: left;
+}
+.topmenu li a {
+	color: black;
+	padding: 12px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: smaller;
+}
+.topmenu li a.active {
+    color: rgba(20, 85, 228, 0.74) ;
+}
+.clearfix {
+    overflow: auto;
+}
+h1, p, a#button {
+    margin: 3cm 2cm 1cm 4cm;
+}
+h1 {
+font-weight: bold;
+}
+img {
+	height: 400px;
+	width: 300px;
+	float: right;
+	opacity: 50%;
+    margin: 1cm 2.7cm 0.7cm 1cm;
+    border: none;
+}
+
+p {
+	font-size: smaller;
+}
+#button {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(20, 85, 228, 0.74);
+	padding: 10px;
+	border-radius: 10px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+}
